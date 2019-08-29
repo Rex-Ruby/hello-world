@@ -8,7 +8,7 @@
   在下载的文件夹中打开终端，输入bash Anaconda3-2019.07-Linux-x86_64.sh
   安装，有选择全部输入yes
   安装完之后关闭终端，再启动可运行conda命令；Python默认最新3.7；输入Python2调用2.7，输入Python3.5调用3.5
-  安装库适用命令conda install +库名
+  安装库使用命令conda install +库名，如conda install numpy
   安装pycharm:
     官网下载最新版，网址：https://www.jetbrains.com/pycharm/download/#section=linux
     在下载目录打开终端，输入tar -xvzf  pycharm-community-2019.2.1.tar.gz
@@ -29,5 +29,5 @@
       Exec=sh /home/sundy/pycharm-community-2018.2.4/bin/pycharm.sh
       Icon=/home/sundy/pycharm-community-2018.2.4/bin/pycharm.png
     然后配置pycharm，环境选择anaconda
-
     
+    deepin 15.11没有安装gedit，需自行安装，sudo apt-get install gedit
