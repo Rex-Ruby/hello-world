@@ -1,0 +1,33 @@
+安装LaTeX：
+  终端输入sudo apt-get install texlive-full
+  等待下载安装完成，其中已经包含中文字体包，因此省去sudo apt-get install latex-cjk-all
+  终端输入sudo apt-get install texmaker
+安装anaconda：
+  deepin 15.11自带Python2.7和Python3.5。在终端输入Python，默认2.7；输入Python3，调用Python3.5
+  下载anaconda Linux版本，网址：https://www.anaconda.com/distribution/#linux
+  在下载的文件夹中打开终端，输入bash Anaconda3-2019.07-Linux-x86_64.sh
+  安装，有选择全部输入yes
+  安装完之后关闭终端，再启动可运行conda命令；Python默认最新3.7；输入Python2调用2.7，输入Python3.5调用3.5
+  安装库适用命令conda install +库名
+  安装pycharm:
+    官网下载最新版，网址：https://www.jetbrains.com/pycharm/download/#section=linux
+    在下载目录打开终端，输入tar -xvzf  pycharm-community-2019.2.1.tar.gz
+    进入解压后的bin目录下，终端执行./pycharm.sh进行安装；接受；OK
+    安装完成之后打开，将图标发送到桌面。若缺失此步骤，找不到图标，按如下步骤进行：
+      终端输入sudo gedit /usr/share/applications/Pycharm.desktop
+      进入gedit文档界面，然后复制以下内容到编辑器中：
+      [Desktop Entry]
+      Type=Application
+      Name=Pycharm
+      GenericName=Pycharm3
+      Comment=Pycharm3:The Python IDE
+      Exec=sh /home/sundy/pycharm-community-2018.2.4/bin/pycharm.sh
+      Icon=/home/sundy/pycharm-community-2018.2.4/bin/pycharm.png
+      Terminal=pycharm
+      Categories=Pycharm;
+      此两处需要替换为自己的安装目录
+      Exec=sh /home/sundy/pycharm-community-2018.2.4/bin/pycharm.sh
+      Icon=/home/sundy/pycharm-community-2018.2.4/bin/pycharm.png
+    然后配置pycharm，环境选择anaconda
+
+    
