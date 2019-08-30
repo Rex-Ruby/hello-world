@@ -30,7 +30,7 @@
       Icon=/home/sundy/pycharm-community-2018.2.4/bin/pycharm.png
     然后配置pycharm，环境选择anaconda
     
-    采用命令行安装pycharm:sudo apt-get install pycharm-professional
+    采用命令行安装pycharm:sudo apt-get install pycharm
     
     deepin 15.11没有安装gedit，需自行安装，sudo apt-get install gedit
 
