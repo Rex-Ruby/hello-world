@@ -1,0 +1,4 @@
+参考:https://blog.csdn.net/zhangziju/article/details/80384752
+从Windows系统的系统盘找到Windows下的Fonts文件夹,并复制到/usr/share/fonts/truetype文件夹中
+在truetype文件夹下启动终端,刷新缓存:sudo fc-cache -f -v.完成之后显示:fc-cache succeeded
+重启WPS,即可找到对应字体
