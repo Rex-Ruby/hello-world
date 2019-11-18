@@ -4,4 +4,5 @@
 
 ## 包含deepin15.11系统下安装：
 1.latex编译环境 \\\
-2.python环境：安装anaconda和pycharm
+2.python环境：安装anaconda和pycharm  \\\
+3.安装WPS缺省字体
